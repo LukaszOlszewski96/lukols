@@ -1,12 +1,10 @@
 import React from 'react';
-import Navbar from '../../Components/Navbar/Navbar';
-import HireBtn from './Button/HireBtn';
 import "./Home.css";
+import HireBtn from "./Button/HireBtn";
 
 function Home() {
     return (
         <div className="home-conteiner">
-            <Navbar/>
             <div className="left-box-home">
                 <p className="font-size-text">Hello</p>
                 <p className="font-size-name">I'm Luke</p>
