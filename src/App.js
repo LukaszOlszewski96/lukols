@@ -15,10 +15,8 @@ function App() {
       <AboutMe/>
       <Skill/>
       <Portfolio/>
-      <Route>
-        <Router path='/' component={Contact}/>
-      </Route>
-</Router>
+      <Contact/>
+  </Router>
   );
 }
 

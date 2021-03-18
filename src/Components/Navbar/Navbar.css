@@ -1,19 +1,20 @@
 .navbar-conteiner{
     display: flex;
-    width: 100vw;
-    height: 40px;
-    background-color:fill;
+    width: 100%;
+    height: 50px;
+    background-color:rgba(255,255,255,0.9);;
     position: fixed;
     margin: 0;
     padding: 0;
+    z-index: 1;
 }
 .icon-logo{
     display: flex;
     font-size: 40px;
     position: relative;
     left: 220px;
-    align-items: center;
-    padding-top: 10px;
+    top: 5px;
+    color: #7510F7;
 }
 .logo{
     display: flex;
@@ -24,13 +25,12 @@
     font-family: 'Signika', sans-serif;
     font-weight: 400;
     padding-top: 10px;
+    color: #7510F7;
 }
-.box-resp-none{
-    max-width: 480px;
-    width: 100%;
-    height: 40px;
-}
+
 .menu-conteiner{
+    position: relative;
+    left: 35%;
     height: 40px;
     display: flex;
     width: auto;
@@ -51,9 +51,15 @@ a{
     text-decoration: none;
     padding-top: 10px;
     font-family: 'Lato', sans-serif;
+    font-size: 18px;
     padding-bottom: 10px;
     padding-right: 10px;
     padding-left: 10px;
     color: #2C2F33;
-    font-weight: 500;
+    font-weight: bold;
+    transition: 600ms;
+}
+a:hover{
+    font-size: 16px;
+    transition: 500ms;
 }

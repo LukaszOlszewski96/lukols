@@ -2,6 +2,35 @@
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 100vh;
-    background-color: rebeccapurple;
+    height: 900px;
+    background-color: rgba(255,255,255,0.9);
+    display: block;
+    border-top: 2px solid #7410f742;
+}
+.portfolio-conteiner h2{
+    margin-top:100px;
+    text-align: center;
+}
+.portfolio-box-image{
+    width: 450px;
+    height: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.portfolio-box-image img{
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.horizontal-box-portfolio{
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+}
+.box-portfolio{
+ width: auto;
+ height: auto;
+ margin-top: 30px;
 }
