@@ -9,11 +9,11 @@ function Navbar() {
             <div className="logo">lukols</div>
             <div className="menu-conteiner">
                 <ul className="menu-links">
-                    <li><a href="/" className="link">Home</a></li>
-                    <li><a href="/" className="link">About me</a></li>
-                    <li><a href="/" className="link">Skills</a></li>
-                    <li><a href="/" className="link">Portfolio</a></li>
-                    <li><a href="/" className="link">Contact</a></li>
+                    <li><a href="#go-home" className="link">Home</a></li>
+                    <li><a href="#go-about" className="link">About me</a></li>
+                    <li><a href="#go-skill" className="link">Skills</a></li>
+                    <li><a href="#go-portfolio" className="link">Portfolio</a></li>
+                    <li><a href="#go-contact" className="link">Contact</a></li>
                 </ul>
             </div>
         </div>

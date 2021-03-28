@@ -3,7 +3,7 @@
     padding: 0;
     width: 100%;
     height: 100vh;
-    min-height: 900px;
+    min-height: 100vh;
     background-color: rgba(255,255,255,0.9);
     overflow-x: hidden;
 }
@@ -12,7 +12,8 @@
     height: auto;
     position: absolute;
     left: 20%;
-    top: 320px;
+    top: 200px;
+    animation: fadeIn 1s ease-in both;
 }
 p{
     margin:0;
@@ -40,13 +41,26 @@ p{
     display: flex;
     position: relative;
     top: 140px;
-    left: 40px;
+    left: 0px;
 }
 .icons-profiles-linkedin a{
-    font-size: 50px;
+    font-size: 40px;
     color: #0E76A8;
 }
 .icons-profiles-git a{
-    font-size: 50px;
+    font-size: 40px;
     color: black;
+}
+.icons-profiles-instagram a{
+    font-size: 45px;
+    color: black;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
 }

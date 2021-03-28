@@ -2,10 +2,11 @@ import React from 'react';
 import "./Home.css";
 import HireBtn from "./Button/HireBtn";
 import {FaLinkedin, FaGithub } from "react-icons/fa";
+import {AiOutlineInstagram} from "react-icons/ai";
 
 function Home() {
     return (
-        <div className="home-conteiner">
+        <div id="go-home" className="home-conteiner">
             <div className="left-box-home">
                 <p className="font-size-text">Hello</p>
                 <p className="font-size-name">I'm Luke</p>
@@ -17,6 +18,9 @@ function Home() {
                 </div>
                 <div className="icons-profiles-git">
                     <a href="https://github.com/LukaszOlszewski96"><FaGithub/></a>
+                </div>
+                <div className="icons-profiles-instagram">
+                    <a href="https://github.com/LukaszOlszewski96"><AiOutlineInstagram/></a>
                 </div>
                 </div>
             </div>

@@ -49,13 +49,11 @@
     display: block;
     margin-bottom: 50px;
     position: relative;
-
-    
 }
 .skill-webDev{
     height: 530px;
     width: 300px;
-    margin-left:10px;
+    margin-left:20px;
     margin-right:20px;
     box-shadow: #7410f760 2px 0px 10px 3px;
     border-radius: 30px;
@@ -70,7 +68,7 @@
 .skill-lern{
     height: 530px;
     width: 300px;
-    margin-left:10px;
+    margin-left:20px;
     box-shadow: #7410f760 2px 0px 10px 3px;
     border-radius: 30px;
 }

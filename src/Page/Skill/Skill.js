@@ -7,9 +7,9 @@ import {IoSchoolOutline} from "react-icons/io5";
 
 function Skill() {
     return (
-        <div className="skill-conteiner">
+        <div  className="skill-conteiner">
             <div className="box-border" >
-                <h2>Skills</h2>
+                <h2 id="go-skill">Skills</h2>
                 <p>Technologies and tools that I currently use and which I want to learn in 2021.</p>
                 <div className="skill-box-image">
                     <div className="skill-mobileDev">
@@ -26,12 +26,10 @@ function Skill() {
                             <img className="Firebase-img" src="image/Firebase.png"></img>
                             <img className="Git-img" src="image/git.png"></img>
                         </div>
-                        <div className="horizontal-skill-box">
-                            <img className="Figma-img" src="image/Figma.png"></img>
+                        <div className="horizontal-skill-box">                            <img className="Figma-img" src="image/Figma.png"></img>
                             <img className="Canva-img" src="image/Canva.png"></img>
                         </div>
                     </div>
-                 
                     <div className="skill-webDev">
                         <div className="skill-icon"><BiCodeBlock/></div>
                         <p>Front-end developer:</p>

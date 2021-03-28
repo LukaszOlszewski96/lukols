@@ -1,11 +1,10 @@
 import React from 'react';
 import "./AboutMe.css";
-import {BiCoffee} from "react-icons/bi";
-import {GoDeviceDesktop} from "react-icons/go";
+
 
 function AboutMe() {
     return (
-        <div className="about-conteiner">
+        <div id="go-about" className="about-conteiner">
             <div className="left-box-about">
                 <h1>About Me</h1>
             </div>
