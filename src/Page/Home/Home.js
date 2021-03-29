@@ -24,6 +24,9 @@ function Home() {
                 </div>
                 </div>
             </div>
+            <div className="right-box-home">
+                <img src="image/main_me1.png"></img>
+            </div>
                
         </div>
     )

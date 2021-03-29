@@ -8,8 +8,8 @@ function Contact() {
         <div className="contact-block">
         <div id="go-contact" className="contact-conteiner">
             <div className="contact-box">
-                <h1>Interesting in collaborating?</h1>
-                <p>I’m always open to discussing product design work or partnership opportunities.</p>
+                <p className="contact-name">Interesting in collaborating?</p>
+                <p className="contact-text">I’m always open to discussing product design work or partnership opportunities.</p>
                 <div className="contact-btn"><ConBtn/></div>
             </div>
         </div>

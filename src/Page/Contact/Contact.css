@@ -10,7 +10,7 @@
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 400px;
+    height: 25vw;
     background-color: #7510F7;
     display: flex;
     justify-content: center;
@@ -18,32 +18,40 @@
 .contact-box{
     display: block;
     position: relative;
-    top: -100px;
-    width: 900px;
-    height: 350px;
+    top: -8vw;
+    width: 53.57vw;
+    height: 20.83vw;
     background-color: white;
     border-radius: 30px;
     box-shadow: #7410f760 0px 0px 10px 4px;
 }
-.contact-box h1{
-    padding-top:50px ;
+.contact-name{
+    padding-top:3vw ;
     margin: 0;
+    font-size: 2vw;
+    font-weight: bold;
     text-align: center;
+    transition: 500ms;
+}
+.contact-text{
+    margin: 0;
+    font-size: 1vw;
+    text-align: center;
+    transition: 500ms;
 }
 .contact-box p:nth-child(2){
-    margin-top: 50px;
-    margin-bottom: 20px;
+    margin-top: 3vw;
+    margin-bottom: 1vw;
 }
 .contact-btn{
     width: 100%;
-    margin-top: 50px;
+    margin-top: 3vw;
     height: auto;
     justify-content: center;
     display: flex;
 }
 .contact-box p {
     font-family: 'Lato', sans-serif;
-    font-size: 16px;
 }
 .icon-logo-fot{
     margin: 0;
@@ -54,8 +62,9 @@
     display: flex;
     justify-content: center;
     position: relative;
-    right: 100px;
-    font-size:50px;
+    bottom: 0.5vw;
+    right: 8vw;
+    font-size:3vw;
     color: #ffff;
     opacity: 40%;
 }
@@ -67,8 +76,8 @@
 }
 .certificate p{
     position: relative;
-    bottom: 20px;
-    font-size: 12px;
+    bottom: 2vw;
+    font-size: 1vw;
     color:#ffff;
     text-align: center;
     opacity: 40%;
@@ -76,7 +85,7 @@
 .certificate a{
     margin: 0;
     padding: 0;
-    font-size: 12px;
+    font-size: 1vw;
     color:#ffff;
     font-weight: 600;
 }

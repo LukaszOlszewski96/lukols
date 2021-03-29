@@ -9,13 +9,12 @@ function Skill() {
     return (
         <div  className="skill-conteiner">
             <div className="box-border" >
-                <h2 id="go-skill">Skills</h2>
-                <p>Technologies and tools that I currently use and which I want to learn in 2021.</p>
+                <p className="skill-name" id="go-skill">Skills</p>
+                <p className="skills-text">Technologies and tools that I currently use and which I want to learn in 2021.</p>
                 <div className="skill-box-image">
                     <div className="skill-mobileDev">
-                       
                         <div className="skill-icon"><AiOutlineMobile/></div>
-                        <p>Mobile developer:</p>
+                        <p >Mobile developer:</p>
                         <div className="horizontal-skill-box">
                             <img src="image/Android.png"></img>
                             <img className="Kotlin-img" src="image/Kotlin.png"></img>

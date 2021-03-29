@@ -1,7 +1,7 @@
 .button-portfolio{
     margin: 0;
     padding: 0;
-    padding: 15px 45px;
+    padding: 1vw 1.5vw;
     color:#7510F7 ;
     border-radius: 50px;
     border: solid 2px  #7510F7;
@@ -13,4 +13,3 @@
     transition: 300ms;
     color: #ffff;
 }
-
