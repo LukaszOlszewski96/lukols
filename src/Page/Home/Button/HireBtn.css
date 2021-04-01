@@ -15,7 +15,7 @@
 }
 .button-hire-me:hover{
   transition: 500ms;
-  font-size: 18px;
+  font-size: 1vw;
 }
 
 @keyframes anime {
@@ -25,4 +25,26 @@
      background-position: 100% 50%}
    100%{
      background-position: 0% 50%}
+}
+@media (max-width:800px){
+    .button-hire-me{
+      margin: 0;
+      padding: 0;
+      position: relative;
+      left: 2vw;
+      top:7.5vw;
+      padding: 4vw 8vw;
+      color: rgba(255,255,255,0.9);
+      border-radius: 50px;
+      background: linear-gradient(-45deg, #FFA63D, #FF3D77, #338AFF, #3CF0C5);
+      background-size: 600%;
+      animation: anime 10s linear infinite;
+      font-size: 3.3vw;
+      transition: 500ms;
+  }
+  .button-hire-me:hover{
+    transition: 500ms;
+    font-size: 2.5vw;
+  }
+
 }

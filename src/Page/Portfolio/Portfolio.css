@@ -23,14 +23,15 @@
     transition: 500ms;
 }
 .portfolio-box-image{
-    width: 20vw;
+    width: 25vw;
     height: 20vw;
-    border-radius: 10px;
     overflow: hidden;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 1.2vw;
+    margin-right: 1.2vw;
     position: relative;
-    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+    background: #EEF2FA;
+    box-shadow: -4px -2px 16px #FFFFFF, 4px 2px 16px rgba(136, 165, 191, 0.48);
+    border-radius: 2vw;
     transition: 200ms;
 }
 .portfolio-box-image img{
@@ -86,9 +87,60 @@
     top:70%;
     left: 30%;
 }
-@media (max-width:600px){
+@media (max-width:800px){
+    .horizontal-box-portfolio{
+        flex-direction: column;
+        align-items: center;
+    }
     .portfolio-box-image{
-        width: 100px;
-        height: 100px;
+        width: 80vw;
+        height: 55vw;
+        margin-top: 2.5vw;
+        margin-bottom: 2.5vw;
+    }
+    .portfolio-name{
+        margin-top:7vw;
+        text-align: center;
+        color: #000;
+        font-size: 7.5vw;
+        font-weight: 600;
+        transition: 500ms;
+    }
+    .portfolio-text{
+        color:#000;
+        font-size: 4vw;
+        margin-top: 3vw;
+        text-align: center;
+        transition: 500ms;
+    }
+    .portfolio-conteiner{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: auto;
+        margin-bottom: 50vw;
+        background-color: rgba(255,255,255,0.9);
+        display: block;
+        border-top: 2px solid #7410f742;
+    }
+    .more-info-button{
+        width: auto;
+        height: auto;
+        position: absolute;
+        top:70%;
+        left: 35%;
+    }
+    .icon-logo-portfolio{
+        font-size: 15vw;
+        color: #ffff;
+        position: absolute;
+        left: 40%;
+        top: 8%;
+    }
+    .overlay-image p{
+        font-size: 6vw;
+        text-align: center;
+        position: relative;
+        top: 40%;
     }
 }

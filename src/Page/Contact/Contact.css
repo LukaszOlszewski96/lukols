@@ -63,8 +63,8 @@
     justify-content: center;
     position: relative;
     bottom: 0.5vw;
-    right: 8vw;
-    font-size:3vw;
+    right: 7.3vw;
+    font-size:2vw;
     color: #ffff;
     opacity: 40%;
 }
@@ -88,4 +88,75 @@
     font-size: 1vw;
     color:#ffff;
     font-weight: 600;
+}
+@media (max-width:800px){
+    .contact-block{
+        display: block;
+        margin: 0;
+        padding: 0;
+        width: auto;
+        height: 50vw;
+        background-color: #7510F7;
+    }
+    .contact-box{
+        display: block;
+        position: relative;
+        top: -20vw;
+        width: 80vw;
+        height: 50vw;
+        background-color: white;
+        border-radius: 30px;
+        box-shadow: #7410f760 0px 0px 10px 4px;
+    }
+    .contact-name{
+        padding-top:5vw ;
+        margin: 0;
+        font-size: 5.5vw;
+        font-weight: bold;
+        text-align: center;
+        transition: 500ms;
+    }
+    .contact-text{
+        margin: 0;
+        font-size: 3.5vw;
+        text-align: center;
+        transition: 500ms;
+    }
+    .contact-btn{
+        width: 100%;
+        margin-top: 10vw;
+        height: auto;
+        justify-content: center;
+        display: flex;
+    }
+    .certificate p{
+        position: relative;
+        bottom: -15vw;
+        font-size: 2vw;
+        color:#ffff;
+        text-align: center;
+        opacity: 40%;
+    }
+    .certificate a{
+        margin: 0;
+        padding: 0;
+        font-size: 2vw;
+        color:#ffff;
+        font-weight: 600;
+    }
+    .icon-logo-fot{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        background-color:#7410f760;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        bottom: -18vw;
+        right: 15vw;
+        font-size:3vw;
+        color: #ffff;
+        opacity: 40%;
+    }
 }
