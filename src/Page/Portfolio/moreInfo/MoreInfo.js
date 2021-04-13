@@ -16,11 +16,11 @@ function MoreInfo() {
                     </div>
                     <div className="right-text-more">
                         <p className="title-more-info">INFO</p>
-                        <p className="description-info">Lukols powstała w kwietniu 2021 roku i od tej pory wszystkie moje projekty realizuję właśnie pod tą nazwą.
-                            Strona pełni funckję mojej wizytówki oraz mojego portfolio.</p>
-                        <p className="description-tech">Witryna została wykonana przy użyciu technologii: HTML5, CSS 3, JavaScript, React, Node.js, Firebase.</p>
-                        <p className="description-tech">Grafikę przygotowano przy użyciu: Figma, Canva, Photoshop.</p>
-                        <p className="title-more-area">ZAKRES PRAC</p>
+                        <p className="description-info">Lukols was established in April 2021 and since then I have been implementing all my projects under this name.
+                        The website functions as my business card and my portfolio.</p>
+                        <p className="description-tech">The site was made using technology: HTML5, CSS 3, JavaScript, React, Node.js, Firebase.</p>
+                        <p className="description-tech">Graphics were prepared using: Figma, Canva, Photoshop.</p>
+                        <p className="title-more-area">Scope of work</p>
                         <p className="description-tech">Design / UI / UX / front-end / back-end development.</p>
                         <p className="link-bottom-des">Link:<a href="https://lukols.com/" className="link-to-side">lukols.com</a></p>
                     </div>
