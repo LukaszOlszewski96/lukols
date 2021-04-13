@@ -1,7 +1,8 @@
 import React from 'react';
 import "./Navbar.css";
 import {AiOutlineAliwangwang} from 'react-icons/ai';
-import {TiThMenuOutline} from 'react-icons/ti';
+import {TiThMenu} from 'react-icons/ti';
+import {IoClose} from 'react-icons/io5';
 
 function Navbar() {
     
@@ -24,26 +25,26 @@ function Navbar() {
     window.addEventListener('resize',showHamburger);
 
     return (
-        <div className="navbar-conteiner">
-            <div className="icon-logo"><AiOutlineAliwangwang/></div>
-            <div className="logo">lukols</div>
+        <div className={click ?"navbar-conteiner active" : "navbar-conteiner"}>
+            <a className="icon-logo"  href="/"><AiOutlineAliwangwang/></a>
+            <a  className="logo" href="/">lukols</a>
             {hamburger ? 
             <div className="hamburger-menu"> 
-                <a className="hamburger-icon" href="#" onClick={clickMenu}><TiThMenuOutline/></a>
-                <div className="menu-conteiner">
+                <a className="hamburger-icon" href="#" onClick={clickMenu}>{click?<IoClose/>:<TiThMenu/>}</a>
+                <div className={click?"menu-conteiner active":"menu-conteiner"}>
                     <ul className={click ? 'menu-links active' : 'menu-links'}>
-                        <li><a href="#go-home" className="link">Home</a></li>
-                        <li><a href="#go-about" className="link">About me</a></li>
-                        <li><a href="#go-skill" className="link">Skills</a></li>
-                        <li><a href="#go-portfolio" className="link">Portfolio</a></li>
-                        <li><a href="#go-contact" className="link">Contact</a></li>
+                        <li><a href="#go-home" className="link home">Home</a></li>
+                        <li><a href="#go-about" className="link about">About</a></li>
+                        <li><a href="#go-skill" className="link skill">Skills</a></li>
+                        <li><a href="#go-portfolio" className="link portfolio">Portfolio</a></li>
+                        <li><a href="#go-contact" className="link contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
              : <div className="menu-conteiner">
                 <ul className="menu-links">
                     <li><a href="#go-home" className="link">Home</a></li>
-                    <li><a href="#go-about" className="link">About me</a></li>
+                    <li><a href="#go-about" className="link">About</a></li>
                     <li><a href="#go-skill" className="link">Skills</a></li>
                     <li><a href="#go-portfolio" className="link">Portfolio</a></li>
                     <li><a href="#go-contact" className="link">Contact</a></li>

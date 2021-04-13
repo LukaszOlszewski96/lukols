@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     position: relative;
-    left: 2vw;
     top:3.5vw;
     padding: 1vw 3vw;
     color: rgba(255,255,255,0.9);
@@ -31,7 +30,6 @@
       margin: 0;
       padding: 0;
       position: relative;
-      left: 2vw;
       top:7.5vw;
       padding: 4vw 8vw;
       color: rgba(255,255,255,0.9);
