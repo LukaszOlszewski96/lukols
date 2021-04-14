@@ -119,22 +119,90 @@
 }
 @media (max-width:800px){
     .information-box{
-        width: 80vw;
-        height: 100vw;
+        width: 80%;
+        height: 80%;
         background-color: rgba(255,255,255,0.9);
     }
     .horizontal-box-more{
         flex-direction: column;
     }
     .left-image-more{
-        background-color: wheat;
         width: 100%;
-        height: 50%;
+        height: 40%;
         display: block;
     }
+    .left-image-more img{
+        width: 290px;
+        height: 160px;
+        position: relative;
+        top: 10%;
+        left: 10vw;
+    }
     .right-text-more{
-        background-color: violet;
         width: 100%;
         height: 50%;
+        position: relative;
+        bottom: 50%;
+    }
+    .exit-more{
+        float: right;
+        font-size: 28px;
+        color: #7510F7;
+    }
+    .exit-more:hover{
+        font-size: 28px;
+        color: #7410f78a;
+    }
+    .title-more{
+        font-size: 24px;
+        text-align: center;
+        margin-top: 4%;
+        font-family: 'Lato', sans-serif;
+        font-weight: 500;
+    }
+    .right-text-more{
+        width: 80%;
+        position: relative;
+        margin-left: 50px;
+        height: auto;
+        display: block;
+    }
+        .title-more-info{
+        font-size: 12px;
+        font-weight: 500;
+        color: rgb(37, 37, 37);
+        font-family: 'Lato', sans-serif;
+    }
+    .description-info{
+        font-size: 8px;
+        margin-top: 10px;
+        color: #555;
+        font-family: 'Lato', sans-serif;
+    }
+    .description-tech{
+        font-size: 8px;
+        margin-top: 10px;
+        color: #555;
+        font-family: 'Lato', sans-serif;
+    }
+    .link-bottom-des {
+        font-size: 8px;
+        margin-top: 20px;
+        color: #555;
+        font-family: 'Lato', sans-serif;
+    }
+    .link-bottom-des a {
+        font-size: 8px;
+        font-weight: bold;
+        margin-top: 10px;
+        color: #555;
+        font-family: 'Lato', sans-serif;
+    }
+    .title-more-area{
+        font-size: 12px;
+        font-weight: 500;
+        margin-top: 10px;
+        color: rgb(37, 37, 37);
+        font-family: 'Lato', sans-serif;
     }
 }
