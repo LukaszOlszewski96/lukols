@@ -18,11 +18,12 @@ function Navbar() {
             setHamburger(true);
         }
         else{
-            setHamburger(false)
+            setHamburger(false);
         }
     };
 
     window.addEventListener('resize',showHamburger);
+    
 
     return (
         <div className={click ?"navbar-conteiner active" : "navbar-conteiner"}>

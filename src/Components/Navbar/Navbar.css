@@ -72,7 +72,7 @@ a:hover{
     font-size: 1vw;
     transition: 500ms;
 }
-@media (max-width:800px){
+@media  (max-width:800px){
     .navbar-conteiner{
         display: flex;
         width: 100vw;
@@ -104,8 +104,6 @@ a:hover{
     }
     .icon-logo:hover{
         font-size: 65px;
-        
-
     }
     .logo{
         display: none;
