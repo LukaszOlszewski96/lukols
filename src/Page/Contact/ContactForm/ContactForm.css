@@ -1,0 +1,41 @@
+.contact-form-conteiner{
+    width: 100vw;
+    height: 100%;
+    position:fixed;
+    z-index: 10;
+}
+.contact-form-bottom-box{
+    width: 100vw;
+    height: 100%;
+    background-color:#dddee2 ;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.contact-form-box{
+    width: 80vw;
+    height: 40vw;
+    background-color:#FFFF ;
+    border-radius: 20px;
+    display: block;
+    overflow-y: hidden;
+}
+.text-contact-box{
+    width: 30vw;
+    height: auto;
+    display: block;
+    position: relative;
+    left: 10vw;
+    top: 7vw;
+}
+.title-contact-form{
+    font-size: 2vw;
+    font-weight: bold;
+    color: #7510F7;
+}
+.description-contact-form{
+    font-size: 1vw;
+    font-weight: 500;
+    color: rgb(129, 127, 127);
+    margin-top: 1.5vw;
+}

@@ -9,6 +9,7 @@ import Contact from './Page/Contact/Contact';
 import MoreInfo from './Page/Portfolio/moreInfo/MoreInfo';
 import MoreInfoUnien from './Page/Portfolio/moreInfo/MoreInfoUnien';
 import MoreInfoPupil from './Page/Portfolio/moreInfo/MoreInfoPupil';
+import ContactForm from './Page/Contact/ContactForm/ContactForm';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
           <Route path="/lukols-more" component={MoreInfo}/>
           <Route path="/unien-more" component={MoreInfoUnien}/>
           <Route path="/pupil-more" component={MoreInfoPupil}/>
+          <Route path="/contact" component={ContactForm}/>
       </Switch>
       <Navbar/>
       <Home/>

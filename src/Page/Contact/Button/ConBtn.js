@@ -3,7 +3,7 @@ import "./ConBtn.css";
 
 function ConBtn() {
     return (
-        <a href="mailto:lukols.dev@gmail.com" className="button-contact">Get in touch</a>
+        <a href="/contact" className="button-contact">Get in touch</a>
     )
 }
 
