@@ -119,8 +119,8 @@
 }
 @media (max-width:800px){
     .information-box{
-        width: 400px;
-        height: 600px;
+        width: 90vw;
+        height: 110vw;
         background-color: rgba(255,255,255,0.9);
     }
     .horizontal-box-more{
@@ -128,88 +128,85 @@
     }
     .left-image-more{
         width: 100%;
-        height: 40%;
+        height: 40vw;
     }
     .left-image-more img{
-        width: 300px;
-        height: 170px;
+        width: 59vw;
+        height: 35vw;
         position: relative;
-        top: 30px;
-        left: 50px;
+        top: 4vw;
+        left: 15vw;
     }
     .exit-more{
         float: right;
-        font-size: 28px;
+        font-size: 5vw;
         color: #7510F7;
     }
     .exit-more:hover{
-        font-size: 28px;
+        font-size: 5vw;
         color: #7410f78a;
     }
     .title-more{
-        font-size: 24px;
-        text-align: center;
+        font-size: 5vw;
         font-family: 'Lato', sans-serif;
         font-weight: 500;
-        position: relative;
-        left:100px;
-        width: 200px;
+        text-align: center;
+        margin-left: 20px;
     }
     .right-text-more{
-        width: 300px;
+        width: 61vw;
         align-items: center;
         justify-content: center;
         position: relative;
-        top:2%;
-        left:15%;
+        top:6vw;
+        left:15vw;
         height: auto;
-
     }
         .title-more-info{
-        font-size: 15px;
+        font-size: 3vw;
         font-weight: 500;
         color: rgb(37, 37, 37);
         font-family: 'Lato', sans-serif;
     }
     .description-info{
-        font-size: 10px;
-        margin-top: 10px;
+        font-size: 2vw;
+        margin-top: 1.3vw;
         color: #555;
         font-family: 'Lato', sans-serif;
     }
     .description-tech{
-        font-size: 10px;
-        margin-top: 15px;
+        font-size: 2vw;
+        margin-top: 2vw;
         color: #555;
         font-family: 'Lato', sans-serif;
     }
     .link-bottom-des {
-        font-size: 10px;
-        margin-top: 20px;
+        font-size: 3vw;
+        margin-top: 4vw;
         color: #555;
         font-family: 'Lato', sans-serif;
     }
     .link-bottom-des a {
-        font-size: 10px;
+        font-size: 3vw;
         font-weight: bold;
-        margin-top: 20px;
+        margin-top: 4vw;
         color: #555;
         font-family: 'Lato', sans-serif;
     }
     .title-more-area{
-        font-size: 15px;
+        font-size:3vw;
         font-weight: 500;
-        margin-top: 25px;
+        margin-top: 3.5vw;
         color: rgb(37, 37, 37);
         font-family: 'Lato', sans-serif;
     }
     .in-progress{
-        font-size: 15px;
+        font-size: 3vw;
         font-weight: 600;
         text-align: center;
         position: relative;
         top: 1.5vw;
-        right: 2.5vw;
+        right: 1vw;
         animation-name: progress;
         animation-duration: 3s;
         animation-iteration-count: infinite;
