@@ -39,3 +39,125 @@
     color: rgb(129, 127, 127);
     margin-top: 1.5vw;
 }
+.input-box-contact{
+    width: 30vw;
+    height: 30vw;
+    background-color: #FFFF ;
+    float: right;
+    position: relative;
+    right: 4vw;
+    bottom: 3vw;
+    border-radius: 20px;
+    box-shadow: 0px 8px 28px -6px rgba(24, 39, 75, 0.12), 0px 18px 88px -4px rgba(24, 39, 75, 0.14);
+    display: block;
+}
+.name-input-form{
+    width: 19vw;
+    display: flex;
+    border: solid #7e1bff44 1px ;
+    border-radius: 20px;
+    align-items: center;
+    position: relative;
+    top: 1vw;
+    left: 2.5vw;
+    margin-top: 20px;
+}
+.name-input-form .icon{
+    font-size: 1.3vw;
+    position: relative;
+    top: 2px;
+    padding-left: 5px;
+    color: #7e1bff44;
+}
+.name-input{
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-size: .8vw;
+    border: none;
+    outline: none;
+    color: #7510F7;
+    width: 15vw;
+}
+.name-input::placeholder{
+    color:#7e1bff7a ;
+}
+.topic-input-form{
+    width: 25vw;
+    display: flex;
+    border: solid #7e1bff44 1px ;
+    border-radius: 20px;
+    align-items: center;
+    position: relative;
+    top: 2vw;
+    left: 2.5vw;
+    margin-top: 5px;
+}
+.topic-input-form .icon{
+    font-size: 1.3vw;
+    position: relative;
+    top: 2px;
+    padding-left: 5px;
+    color: #7e1bff44;
+}
+.topic-input{
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-size: .7vw;
+    border: none;
+    outline: none;
+    color: #7510F7;
+    width: 20vw;
+}
+.topic-input::placeholder{
+    color:#7e1bff7a ;
+}
+.textarea-input-form{
+    width: 25vw;
+    height: 13vw;
+    display: flex;
+    border: solid #7e1bff44 1px ;
+    border-radius: 20px;
+    align-items: center;
+    position: relative;
+    top: 2vw;
+    left: 2.5vw;
+    margin-top: 10px;
+}
+.text-area-input{
+    padding-left: 10px;
+    font-size: .7vw;
+    position: relative;
+    left: 5px;
+    border: none;
+    outline: none;
+    color: #7510F7;
+    width: 23vw;
+    height: 12vw;
+    border-radius: 20px;
+    resize: none;
+    overflow-y: hidden;
+}
+.button-submit{
+    padding: 10px 30px 10px 30px;
+    float: right;
+    position: relative;
+    top: 50px;
+    right: 40px;
+    box-shadow: -10px -10px 20px #FAFBFF, 10px 10px 20px #A6ABBD;
+    background-color: #7510F7;
+    color: #fff;
+    outline: none;
+    border-radius: 20px;
+    border: none;
+    font-size: 1vw;
+    font-weight: 500;
+}
+.contact-form-box img{
+    width: 17vw;
+    height: 18vw;
+    position: relative;
+    top: 10vw;
+    left:14vw;
+}
