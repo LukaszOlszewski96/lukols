@@ -3,7 +3,7 @@ import "./HireBtn.css";
 
 function HireBtn() {
     return (
-        <a href="/" className="button-hire-me">Hire Me</a>
+        <a href="mailto: lukols.dev@gmail.com" className="button-hire-me">Hire Me</a>
     )
 }
 
