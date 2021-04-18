@@ -4,8 +4,26 @@ import {IoPersonCircleOutline} from "react-icons/io5";
 import {HiOutlineMail} from "react-icons/hi";
 import {MdTitle} from "react-icons/md";
 import {AiFillCloseSquare} from "react-icons/ai";
+import { cloudFirestore } from '../../../DataBase/Configure';
 
 function ContactForm() {
+
+    const [name, setName] = React.useState(" ");
+    const [email, setEmail] = React.useState(" ");
+    const [topic, setTopic] = React.useState(" ");
+    const [text, setText] = React.useState(" ");
+
+
+    const addContact= () =>{
+
+        cloudFirestore.collection('contacts').doc(email).set({name: name, email: email, topic: topic, text: text}).then(()=>{
+            alert("Message has been submitted")
+        }).catch((error)=>{
+            alert(error.message);
+        })
+    };
+
+
     return (
         <div className="contact-form-conteiner">
             <div className="contact-form-bottom-box">
@@ -20,20 +38,20 @@ function ContactForm() {
                 <div className="input-box-contact">
                     <form className="name-input-form">
                         <div className="icon"><IoPersonCircleOutline/></div>
-                        <input className="name-input" type="text" placeholder="Your name..."/>
+                        <input onChange={(e)=>setName(e.target.value)} value={name} className="name-input" type="text" placeholder="Your name..."/>
                     </form>
                     <form className="name-input-form">
                         <div className="icon"><HiOutlineMail/></div>
-                        <input className="name-input" type="text" placeholder="Your email..."/>
+                        <input onChange={(e)=>setEmail(e.target.value)} value={email}  className="name-input" type="text" placeholder="Your email..."/>
                     </form>
                     <form className="topic-input-form">
                         <div className="icon"><MdTitle/></div>
-                        <input className="topic-input" type="text" placeholder="Topic..."/>
+                        <input onChange={(e)=>setTopic(e.target.value)} value={topic}  className="topic-input" type="text" placeholder="Topic..."/>
                     </form>
                     <form className="textarea-input-form">
-                        <textarea className="text-area-input" type="text" />
+                        <textarea onChange={(e)=>setText(e.target.value)} value={text}  className="text-area-input" type="text" />
                     </form>
-                    <button type="submit" className="button-submit">Submit</button>
+                    <button type="submit" onClick={addContact} className="button-submit">Submit</button>
                 </div>
                     </div>
                 </div>
