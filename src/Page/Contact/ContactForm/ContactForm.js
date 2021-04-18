@@ -3,11 +3,14 @@ import "./ContactForm.css";
 import {IoPersonCircleOutline} from "react-icons/io5";
 import {HiOutlineMail} from "react-icons/hi";
 import {MdTitle} from "react-icons/md";
+import {AiFillCloseSquare} from "react-icons/ai";
 
 function ContactForm() {
     return (
         <div className="contact-form-conteiner">
             <div className="contact-form-bottom-box">
+            <a href="/" className="exit-contact"><AiFillCloseSquare/></a>
+            <img className="send_image" src="image/send-image.png"/>
             <div className="contact-form-box">
                 <div className="text-contact-box">
                     <p className="title-contact-form">Get in touch</p>
