@@ -17,16 +17,19 @@ function ContactForm() {
 
 
     const addContact= () =>{
-        if(!name&&!email&&!topic&&!text){
+        if(!name && !email && !topic && !text){
             alert("The fields must be completed :D")
         }else{
-
         const date = Date();
         cloudFirestore.collection('contacts').doc(date).set({data: date, name: name, email: email, topic: topic, text: text }).then(()=>{
             alert("Message has been submitted :D")
         }).catch((error)=>{
             alert(error.message);
         })
+        setName ("");
+        setEmail ("");
+        setTopic ("");
+        setText ("");
     }
     };
 
@@ -45,7 +48,7 @@ function ContactForm() {
                 <div className="input-box-contact">
                     <form className="name-input-form">
                         <div className="icon"><IoPersonCircleOutline/></div>
-                        <input onChange={(e)=>setName(e.target.value)} value={name} className="name-input" type="text" placeholder="Your name..."/>
+                        <input id="id" onChange={(e)=>setName(e.target.value)} value={name} className="name-input" type="text" placeholder="Your name..."/>
                     </form>
                     <form className="name-input-form">
                         <div className="icon"><HiOutlineMail/></div>
