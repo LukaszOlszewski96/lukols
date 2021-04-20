@@ -1,26 +1,33 @@
 import React from 'react';
 import "./ContactForm.css";
-import {IoPersonCircleOutline} from "react-icons/io5";
+import {IoPersonCircleOutline, IoTime} from "react-icons/io5";
 import {HiOutlineMail} from "react-icons/hi";
 import {MdTitle} from "react-icons/md";
 import {AiFillCloseSquare} from "react-icons/ai";
 import { cloudFirestore } from '../../../DataBase/Configure';
+import firebase from '../../../DataBase/Configure';
 
 function ContactForm() {
 
-    const [name, setName] = React.useState(" ");
-    const [email, setEmail] = React.useState(" ");
-    const [topic, setTopic] = React.useState(" ");
-    const [text, setText] = React.useState(" ");
+    const [name, setName] = React.useState("");
+    const [email, setEmail] = React.useState("");
+    const [topic, setTopic] = React.useState("");
+    const [text, setText] = React.useState("");
+
 
 
     const addContact= () =>{
+        if(!name&&!email&&!topic&&!text){
+            alert("The fields must be completed :D")
+        }else{
 
-        cloudFirestore.collection('contacts').doc(email).set({name: name, email: email, topic: topic, text: text}).then(()=>{
-            alert("Message has been submitted")
+        const date = Date();
+        cloudFirestore.collection('contacts').doc(date).set({data: date, name: name, email: email, topic: topic, text: text }).then(()=>{
+            alert("Message has been submitted :D")
         }).catch((error)=>{
             alert(error.message);
         })
+    }
     };
 
 
@@ -51,7 +58,7 @@ function ContactForm() {
                     <form className="textarea-input-form">
                         <textarea onChange={(e)=>setText(e.target.value)} value={text}  className="text-area-input" type="text" />
                     </form>
-                    <button type="submit" onClick={addContact} className="button-submit">Submit</button>
+                    <button href="/" type="submit" onClick={addContact} className="button-submit">Submit</button>
                 </div>
                     </div>
                 </div>

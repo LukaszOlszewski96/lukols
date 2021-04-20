@@ -173,6 +173,7 @@ height: auto;
     font-size: 1vw;
     font-weight: 500;
     transition: 500ms;
+    cursor: pointer;
 
 }
 .button-submit:hover{
@@ -356,6 +357,7 @@ height: auto;
         font-size: 2vw;
         font-weight: 500;
         transition: 500ms;
+        cursor: pointer;
     }
     .exit-contact{
         position: absolute;
