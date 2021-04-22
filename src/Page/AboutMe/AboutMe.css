@@ -48,6 +48,9 @@
     color: rgba(255,255,255,0.9);
     font-size: 1vw;
 }
+.text-about-me.ii{
+    margin-top: 1vw;
+}
 @media (max-width:800px){
     .about-conteiner{
         margin: 0;

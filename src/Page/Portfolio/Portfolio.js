@@ -8,7 +8,7 @@ function Portfolio() {
     return (
         <div id="go-portfolio" className="portfolio-conteiner">
             <p className="portfolio-name">My Work</p>
-            <p className="portfolio-text">Opis tekstowy mojej pracy</p>
+            <p className="portfolio-text">Projects that I have done and which I am currently creating.</p>
             <div className="box-portfolio">
             <div className="horizontal-box-portfolio">
                 <div className="portfolio-box-image">

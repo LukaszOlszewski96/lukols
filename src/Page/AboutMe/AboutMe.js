@@ -9,7 +9,11 @@ function AboutMe() {
                 <p>About Me</p>
             </div>
             <div className="right-box-about">
-                <p className="text-about-me">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <p className="text-about-me">My name is Luke Olszewski and I am fascinated by creating websites, web applications and mobile applications.<br/> I graduate of engineering studies in the field of Automation and Robotics and currently I am professionally a Senior Automation Engineer in LG Energy Solution.
+                                                <br/>Currently I'm doing a master's degree in Computer Science. <br/> I focus all my attention on developing my skills and learning about new technologies that will make my projects even better.  
+                                                </p>
+                <p className="text-about-me ii">I invite you to view the CV and to the interview.</p>
+
                 <a className="CV-button" href="CV/LukaszOlszewski_CV.pdf">View CV</a>
             </div>
         </div>
