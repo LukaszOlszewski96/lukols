@@ -65,8 +65,7 @@
     bottom: 0.5vw;
     right: 7.3vw;
     font-size:2vw;
-    color: #ffff;
-    opacity: 40%;
+    color: rgba(255, 255, 255, 0.822);
 }
 .certificate{
     margin: 0;
@@ -74,19 +73,18 @@
     width: 100%;
     height: auto;
 }
-.certificate p{
+.certyficate-p{
     position: relative;
     bottom: 2vw;
     font-size: 1vw;
-    color:#ffff;
+    color:rgba(255, 255, 255, 0.822);
     text-align: center;
-    opacity: 40%;
 }
 .certificate a{
     margin: 0;
     padding: 0;
     font-size: 1vw;
-    color:#ffff;
+    color:rgba(255, 255, 255, 0.822);
     font-weight: 600;
 }
 @media (max-width:800px){
@@ -133,15 +131,14 @@
         position: relative;
         bottom: -15vw;
         font-size: 2vw;
-        color:#ffff;
+        color:rgba(255, 255, 255, 0.822);
         text-align: center;
-        opacity: 40%;
     }
     .certificate a{
         margin: 0;
         padding: 0;
         font-size: 2vw;
-        color:#ffff;
+        color:rgba(255, 255, 255, 0.822);
         font-weight: 600;
     }
     .icon-logo-fot{
@@ -156,7 +153,6 @@
         bottom: -18vw;
         right: 15vw;
         font-size:3vw;
-        color: #ffff;
-        opacity: 40%;
+        color: rgba(255, 255, 255, 0.822);
     }
 }

@@ -27,8 +27,8 @@ function Navbar() {
 
     return (
         <div className={click ?"navbar-conteiner active" : "navbar-conteiner"}>
-            <a className="icon-logo"  href="/"><AiOutlineAliwangwang/></a>
-            <a  className="logo" href="/">lukols</a>
+            <a className="icon-logo"  href="https://lukols.com/"><AiOutlineAliwangwang/></a>
+            <a  className="logo" href="https://lukols.com/">lukols</a>
             {hamburger ? 
             <div className="hamburger-menu"> 
                 <a className="hamburger-icon" href="#" onClick={clickMenu}>{click?<IoClose/>:<TiThMenu/>}</a>

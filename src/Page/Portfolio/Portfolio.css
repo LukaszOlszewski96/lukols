@@ -59,7 +59,7 @@
     right: 0;
     height: 100%;
     width: 100%;
-    opacity: 0%;
+    z-index: -1;
     transition: 500ms;
 }
 .overlay-image p{
@@ -67,10 +67,10 @@
     text-align: center;
 }
 .portfolio-box-image:hover .overlay-image{
-    opacity: 100%;
     background-color: #141c3a;
     color: #ffff;
     transition: 400ms;
+    z-index: 1;
 }
 .icon-logo-portfolio{
     font-size: 6vw;

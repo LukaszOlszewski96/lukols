@@ -14,7 +14,7 @@ function Contact() {
             </div>
         </div>
         <div className="icon-logo-fot"><AiOutlineAliwangwang/></div>
-        <div className="certificate"><p>Create by <a href="https://lukols.com/">lukols.com</a> © 2021</p></div>
+        <div className="certificate"><p className="certyficate-p">Create by <a href="https://lukols.com/">lukols.com</a> © 2021</p></div>
         </div>
     )
 }

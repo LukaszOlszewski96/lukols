@@ -2,7 +2,7 @@ import React from 'react';
 import "./MoreInfo.css";
 import {AiFillCloseSquare} from "react-icons/ai";
 
-function MoreInfo() {
+function MoreInfoLukols() {
     return (
         <div className="more-info-conteiner">
             <div className="more-info-box">
@@ -33,6 +33,6 @@ function MoreInfo() {
     )
 }
 
-export default MoreInfo;
+export default MoreInfoLukols;
 
 
